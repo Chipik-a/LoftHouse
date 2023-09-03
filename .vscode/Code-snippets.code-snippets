@@ -1,0 +1,21 @@
+{
+
+	"Print to console": {
+		"scope": "javascript,typescript",
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+
+
+/* Media Tablet */
+"mediaTablet": {
+	"scope": "css,scss",
+	"prefix": "tablet",
+	"body": ["@include mediaTablet {", "    ${1}", "}"],
+	"description": "mediaTablet"
+},
+}
